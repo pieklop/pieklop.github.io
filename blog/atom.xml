@@ -83,15 +83,39 @@
         <category label="docusaurus" term="docusaurus"/>
     </entry>
     <entry>
-        <title type="html"><![CDATA[First Blog Post]]></title>
+        <title type="html"><![CDATA[SSH]]></title>
         <id>https://github.com/blog/first-blog-post</id>
         <link href="https://github.com/blog/first-blog-post"/>
         <updated>2019-05-28T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Test pierwszego posta]]></summary>
-        <content type="html"><![CDATA[<p>Test pierwszego posta</p>]]></content>
+        <summary type="html"><![CDATA[An SSH key, or Secure Shell key, is a pair of cryptographic keys used for secure communication and authentication in the SSH protocol. The pair consists of a public key and a private key. SSH keys are widely used for secure remote access to servers, automated processes, and secure file transfers. They offer stronger security compared to password-based authentication, as the private key is never transmitted over the network, reducing the risk of interception or brute-force attacks.]]></summary>
+        <content type="html"><![CDATA[<p>An <strong>SSH key</strong>, or <strong>Secure Shell key</strong>, is a pair of cryptographic keys used for secure communication and authentication in the SSH protocol. The pair consists of a public key and a private key. SSH keys are widely used for secure remote access to servers, automated processes, and secure file transfers. They offer stronger security compared to password-based authentication, as the private key is never transmitted over the network, reducing the risk of interception or brute-force attacks.</p>
+<ol>
+<li>
+<p><strong>Public Key</strong>: The public key is placed on the SSH server that you want to access securely. It is freely distributable and can be shared with anyone. The server uses the public key to encrypt data that can only be decrypted with the corresponding private key.</p>
+</li>
+<li>
+<p><strong>Private Key</strong>: The private key is kept securely on the client side, typically in a file or stored in an SSH agent. It should never be shared with anyone else. When the client attempts to connect to the SSH server, it presents the private key for authentication. The server then checks this private key against the corresponding public key stored on the server. If they match, the client is granted access.</p>
+</li>
+</ol>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="key-features-of-ssh-based-access-include">Key features of SSH-based access include:<a href="https://github.com/blog/first-blog-post#key-features-of-ssh-based-access-include" class="hash-link" aria-label="Direct link to Key features of SSH-based access include:" title="Direct link to Key features of SSH-based access include:">​</a></h2>
+<ol>
+<li>
+<p><strong>Encryption</strong>: SSH encrypts all data transmitted between the client and server, including login credentials, commands, and data transfers. This encryption ensures confidentiality and protects against eavesdropping.</p>
+</li>
+<li>
+<p><strong>Authentication</strong>: SSH uses cryptographic keys, typically in the form of SSH key pairs for user authentication. It enables users to securely log in to remote systems or servers from anywhere with network connectivity.</p>
+</li>
+<li>
+<p><strong>Remote Command Execution</strong>: SSH allows users to execute commands on remote systems as if they were physically present at the console. This capability is particularly useful for system administration, troubleshooting, and automation tasks.</p>
+</li>
+<li>
+<p><strong>Secure File Transfer</strong>: SSH supports secure file transfer protocols, such as Secure Copy (SCP) and Secure File Transfer Protocol (SFTP), allowing users to securely transfer files between local and remote systems or between different remote systems.</p>
+</li>
+</ol>]]></content>
         <author>
-            <name>Gao Wei</name>
-            <uri>https://github.com/wgao19</uri>
+            <name>Bartosz Mucha</name>
+            <uri>https://github.com/pieklop</uri>
         </author>
         <category label="hola" term="hola"/>
         <category label="docusaurus" term="docusaurus"/>
