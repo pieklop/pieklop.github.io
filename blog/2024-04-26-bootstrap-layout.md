@@ -3,7 +3,7 @@ slug: Bootstrap Layout
 title: Bootstrap Layout
 authors:
   name: Tomasz Lech
-  title: 
+  title: First creator of the website
   url: https://github.com/XToximX
   image_url: https://avatars.githubusercontent.com/u/162677728?v=4
 tags: [HTML, CSS, Layout]

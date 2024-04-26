@@ -3,7 +3,7 @@ slug: Tables Layout
 title: Tables Layout
 authors:
   name: Bartosz Mucha
-  title: 
+  title: Second creator of the website
   url: https://github.com/pieklop
   image_url: https://avatars.githubusercontent.com/u/100522099?v=4
 tags: [HTML, CSS, Layout]
