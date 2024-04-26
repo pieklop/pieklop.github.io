@@ -4,10 +4,268 @@
         <title>My Site Blog</title>
         <link>https://github.com/blog</link>
         <description>My Site Blog</description>
-        <lastBuildDate>Thu, 26 Aug 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 26 Apr 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Bootstrap Layout]]></title>
+            <link>https://github.com/blog/Bootstrap Layout</link>
+            <guid>https://github.com/blog/Bootstrap Layout</guid>
+            <pubDate>Fri, 26 Apr 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Here are some examples of uses of bootstrap in code]]></description>
+            <content:encoded><![CDATA[<p>Here are some examples of uses of bootstrap in code</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="grid-system">Grid System<a href="https://github.com/blog/Bootstrap%20Layout#grid-system" class="hash-link" aria-label="Direct link to Grid System" title="Direct link to Grid System">​</a></h3>
+<p>Bootstrap offers a flexible grid system for creating responsive layouts. Here are the essential commands:</p>
+<ul>
+<li><strong>Container</strong>: <code>.container</code> - Creates a responsive container with a fixed width.</li>
+<li><strong>Fluid Container</strong>: <code>.container-fluid</code> - Creates a full-width container that spans the entire viewport.</li>
+<li><strong>Row</strong>: <code>.row</code> - Defines a row to contain columns.</li>
+<li><strong>Columns</strong>: <code>.col-{breakpoint}-{number}</code> - Defines the column width within a row. <code>{breakpoint}</code> can be <code>xs</code> (extra small), <code>sm</code> (small), <code>md</code> (medium), <code>lg</code> (large), or <code>xl</code> (extra large).</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="typography">Typography<a href="https://github.com/blog/Bootstrap%20Layout#typography" class="hash-link" aria-label="Direct link to Typography" title="Direct link to Typography">​</a></h3>
+<p>Bootstrap provides styles for enhancing typography. Here are some key points:</p>
+<ul>
+<li><strong>Headings</strong>: <code>&lt;h1&gt;</code> to <code>&lt;h6&gt;</code> - Bootstrap provides styles for headings.</li>
+<li><strong>Paragraph</strong>: <code>.lead</code> - Increases the font size for a paragraph to make it stand out.</li>
+<li><strong>Text Alignment</strong>: <code>.text-{left|center|right|justify}</code> - Aligns text within its container.</li>
+</ul>
+<p>These elements form the backbone of Bootstrap's layout and typography, allowing developers to create responsive and visually appealing web designs efficiently.</p>]]></content:encoded>
+            <category>HTML</category>
+            <category>CSS</category>
+            <category>Layout</category>
+        </item>
+        <item>
+            <title><![CDATA[Tables Layout]]></title>
+            <link>https://github.com/blog/Tables Layout</link>
+            <guid>https://github.com/blog/Tables Layout</guid>
+            <pubDate>Fri, 26 Apr 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Historically, table-based layouts were a common approach for structuring webpages in HTML. However, with the evolution of web standards and the introduction of more semantically meaningful layout methods like CSS, table-based layouts have been deprecated. This technical note aims to explore the deprecated table-based layout in HTML, its drawbacks, and modern alternatives.]]></description>
+            <content:encoded><![CDATA[<p>Historically, table-based layouts were a common approach for structuring webpages in HTML. However, with the evolution of web standards and the introduction of more semantically meaningful layout methods like CSS, table-based layouts have been <em><strong>deprecated</strong></em>. This technical note aims to explore the deprecated table-based layout in HTML, its drawbacks, and modern alternatives.</p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="table-based-layout-in-html">Table-based Layout in HTML:<a href="https://github.com/blog/Tables%20Layout#table-based-layout-in-html" class="hash-link" aria-label="Direct link to Table-based Layout in HTML:" title="Direct link to Table-based Layout in HTML:">​</a></h2>
+<p>In the early days of web development, tables were primarily used for tabular data presentation. However, developers started utilizing HTML tables to create entire page layouts by nesting tables within tables. This approach involved defining rows and columns to position content elements, such as text, images, and navigation menus, within the table structure.</p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="drawbacks-of-table-based-layouts">Drawbacks of Table-based Layouts:<a href="https://github.com/blog/Tables%20Layout#drawbacks-of-table-based-layouts" class="hash-link" aria-label="Direct link to Drawbacks of Table-based Layouts:" title="Direct link to Drawbacks of Table-based Layouts:">​</a></h2>
+<p>While table-based layouts were once popular, they have several significant drawbacks:</p>
+<ol>
+<li>
+<p><em><strong>Semantic Implications</strong></em>: Tables were originally intended for tabular data, not layout purposes. Misusing tables for layout can result in poor semantic structure, making it harder for search engines to interpret the content correctly.</p>
+</li>
+<li>
+<p><em><strong>Accessibility Issues</strong></em>: Screen readers and other assistive technologies may struggle to navigate and interpret table-based layouts effectively, leading to accessibility barriers for users with disabilities.</p>
+</li>
+<li>
+<p><em><strong>Maintenance Challenges</strong></em>: Table-based layouts often result in convoluted and inflexible code, making it challenging to maintain and update the webpage design.</p>
+</li>
+<li>
+<p><em><strong>Poor Responsiveness</strong></em>: Table-based layouts lack responsiveness, making it difficult to adapt the layout to different screen sizes and devices, leading to a poor user experience on mobile devices.</p>
+</li>
+</ol>]]></content:encoded>
+            <category>HTML</category>
+            <category>CSS</category>
+            <category>Layout</category>
+        </item>
+        <item>
+            <title><![CDATA[Flex Layout]]></title>
+            <link>https://github.com/blog/Flex Layout</link>
+            <guid>https://github.com/blog/Flex Layout</guid>
+            <pubDate>Thu, 25 Apr 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Flexbox is a powerful layout model in CSS that allows you to create flexible and efficient layouts. It's particularly handy for creating responsive designs and aligning items within a container.]]></description>
+            <content:encoded><![CDATA[<p>Flexbox is a powerful layout model in CSS that allows you to create flexible and efficient layouts. It's particularly handy for creating responsive designs and aligning items within a container.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="basics-of-flexbox">Basics of Flexbox<a href="https://github.com/blog/Flex%20Layout#basics-of-flexbox" class="hash-link" aria-label="Direct link to Basics of Flexbox" title="Direct link to Basics of Flexbox">​</a></h2>
+<p>Flexbox operates on two main axes: the main axis and the cross axis. You can control the layout of items along these axes using various properties.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="setting-up-a-flex-container">Setting up a Flex Container<a href="https://github.com/blog/Flex%20Layout#setting-up-a-flex-container" class="hash-link" aria-label="Direct link to Setting up a Flex Container" title="Direct link to Setting up a Flex Container">​</a></h3>
+<p>To create a flex container, you first need to set the <code>display</code> property of the container to <code>flex</code>. This tells the browser to use flex layout for the container's children.</p>
+<div class="language-css codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-css codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token selector class" style="color:#00009f">.container</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token property" style="color:#36acaa">display</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> flex</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token punctuation" style="color:#393A34">}</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="flex-direction">Flex Direction<a href="https://github.com/blog/Flex%20Layout#flex-direction" class="hash-link" aria-label="Direct link to Flex Direction" title="Direct link to Flex Direction">​</a></h3>
+<p>The <code>flex-direction</code> property determines the main axis along which flex items are laid out. The default value is <code>row</code>, which lays out items horizontally.</p>
+<div class="language-css codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-css codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token selector class" style="color:#00009f">.container</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token property" style="color:#36acaa">flex-direction</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> row | row-reverse | column | column-reverse</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token punctuation" style="color:#393A34">}</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="justify-content">Justify Content<a href="https://github.com/blog/Flex%20Layout#justify-content" class="hash-link" aria-label="Direct link to Justify Content" title="Direct link to Justify Content">​</a></h3>
+<p>The <code>justify-content</code> property aligns items along the main axis of the flex container. It's useful for distributing extra space when the items don't fill the container.</p>
+<div class="language-css codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-css codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token selector class" style="color:#00009f">.container</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token property" style="color:#36acaa">justify-content</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> flex-start | flex-end | center | space-between | space-around | space-evenly</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token punctuation" style="color:#393A34">}</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="align-items">Align Items<a href="https://github.com/blog/Flex%20Layout#align-items" class="hash-link" aria-label="Direct link to Align Items" title="Direct link to Align Items">​</a></h3>
+<p>The <code>align-items</code> property aligns items along the cross axis of the flex container. It's handy for controlling vertical alignment of items within a container.</p>
+<div class="language-css codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-css codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token selector class" style="color:#00009f">.container</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token property" style="color:#36acaa">align-items</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> stretch | flex-start | flex-end | center | baseline</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token punctuation" style="color:#393A34">}</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="conclusion">Conclusion<a href="https://github.com/blog/Flex%20Layout#conclusion" class="hash-link" aria-label="Direct link to Conclusion" title="Direct link to Conclusion">​</a></h2>
+<p>Flexbox provides a flexible and efficient way to create layouts in CSS. By understanding and leveraging its properties, you can easily create responsive designs that adapt to different screen sizes and devices.</p>]]></content:encoded>
+            <category>HTML</category>
+            <category>CSS</category>
+            <category>Layout</category>
+        </item>
+        <item>
+            <title><![CDATA[Grid Layout]]></title>
+            <link>https://github.com/blog/Grid Layout</link>
+            <guid>https://github.com/blog/Grid Layout</guid>
+            <pubDate>Thu, 25 Apr 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Grid layout on a website refers to the arrangement of content elements using a grid system, where the webpage is divided into columns and rows to create a structured layout. This approach offers designers precise control over the placement and alignment of various elements such as text, images, navigation menus, and other components.]]></description>
+            <content:encoded><![CDATA[<p>Grid layout on a website refers to the arrangement of content elements using a grid system, where the webpage is divided into columns and rows to create a structured layout. This approach offers designers precise control over the placement and alignment of various elements such as text, images, navigation menus, and other components.</p>
+<ol>
+<li>
+<p><strong>Structuring the Grid</strong>: The webpage is conceptualized as a grid, with horizontal rows and vertical columns forming a framework. Designers determine the number of columns, their widths, and the spacing between them to establish the grid's structure.</p>
+</li>
+<li>
+<p><strong>Placing Content Elements</strong>: Each content element is positioned within the grid by specifying its placement in terms of grid columns and rows. Designers can allocate specific grid areas for different sections of the webpage, such as headers, sidebars, main content, and footers. This allows for a logical organization of content and facilitates navigation.</p>
+</li>
+<li>
+<p><strong>Creating Responsive Layouts</strong>: With the advent of mobile devices and varying screen sizes, responsive design has become essential. Grid layout enables designers to create responsive layouts that adapt seamlessly to different viewport sizes. Media queries and grid layout techniques are used to adjust column widths, rearrange content, and optimize the layout for optimal viewing on devices of all sizes.</p>
+</li>
+<li>
+<p><strong>Maintaining Accessibility</strong>: Accessibility considerations are crucial in web design. Designers ensure that grid layouts maintain readability, logical tab order, and sufficient contrast between elements to accommodate users with diverse needs and disabilities.</p>
+</li>
+</ol>
+<hr>
+<h1>CSS Styling with Grid</h1>
+<p>CSS Grid Layout is a powerful two-dimensional layout system that allows you to design complex web layouts with ease. It's ideal for creating grid-based designs, whether simple or intricate.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="basics-of-css-grid">Basics of CSS Grid<a href="https://github.com/blog/Grid%20Layout#basics-of-css-grid" class="hash-link" aria-label="Direct link to Basics of CSS Grid" title="Direct link to Basics of CSS Grid">​</a></h2>
+<p>CSS Grid operates on a grid system, where you define both rows and columns to lay out elements in a grid-like fashion.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="setting-up-a-grid-container">Setting up a Grid Container<a href="https://github.com/blog/Grid%20Layout#setting-up-a-grid-container" class="hash-link" aria-label="Direct link to Setting up a Grid Container" title="Direct link to Setting up a Grid Container">​</a></h3>
+<p>To create a grid layout, you designate an element as the grid container using the <code>display</code> property set to <code>grid</code>.</p>
+<div class="language-css codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-css codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token selector class" style="color:#00009f">.container</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token property" style="color:#36acaa">display</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> grid</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token punctuation" style="color:#393A34">}</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="defining-grid-columns-and-rows">Defining Grid Columns and Rows<a href="https://github.com/blog/Grid%20Layout#defining-grid-columns-and-rows" class="hash-link" aria-label="Direct link to Defining Grid Columns and Rows" title="Direct link to Defining Grid Columns and Rows">​</a></h3>
+<p>You can define the size and structure of grid columns and rows using the <code>grid-template-columns</code> and <code>grid-template-rows</code> properties, respectively.</p>
+<div class="language-css codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-css codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token selector class" style="color:#00009f">.container</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token property" style="color:#36acaa">grid-template-columns</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token number" style="color:#36acaa">100</span><span class="token unit">px</span><span class="token plain"> </span><span class="token number" style="color:#36acaa">200</span><span class="token unit">px</span><span class="token plain"> </span><span class="token number" style="color:#36acaa">100</span><span class="token unit">px</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token property" style="color:#36acaa">grid-template-rows</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token number" style="color:#36acaa">50</span><span class="token unit">px</span><span class="token plain"> </span><span class="token number" style="color:#36acaa">100</span><span class="token unit">px</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token punctuation" style="color:#393A34">}</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="grid-gaps">Grid Gaps<a href="https://github.com/blog/Grid%20Layout#grid-gaps" class="hash-link" aria-label="Direct link to Grid Gaps" title="Direct link to Grid Gaps">​</a></h3>
+<p>You can add gaps between grid rows and columns using the <code>grid-column-gap</code> and <code>grid-row-gap</code> properties.</p>
+<div class="language-css codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-css codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token selector class" style="color:#00009f">.container</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token property" style="color:#36acaa">grid-column-gap</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token number" style="color:#36acaa">10</span><span class="token unit">px</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token property" style="color:#36acaa">grid-row-gap</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token number" style="color:#36acaa">20</span><span class="token unit">px</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token punctuation" style="color:#393A34">}</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="named-grid-lines-and-areas">Named Grid Lines and Areas:<a href="https://github.com/blog/Grid%20Layout#named-grid-lines-and-areas" class="hash-link" aria-label="Direct link to Named Grid Lines and Areas:" title="Direct link to Named Grid Lines and Areas:">​</a></h3>
+<p>CSS Grid allows you to name specific grid lines and areas to make layout definition more intuitive and readable.</p>
+<div class="language-css codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-css codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token selector class" style="color:#00009f">.grid-container</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token property" style="color:#36acaa">display</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> grid</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token property" style="color:#36acaa">grid-template-columns</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> [col1] </span><span class="token number" style="color:#36acaa">100</span><span class="token unit">px</span><span class="token plain"> [col2] </span><span class="token number" style="color:#36acaa">200</span><span class="token unit">px</span><span class="token plain"> [col3] </span><span class="token number" style="color:#36acaa">1</span><span class="token unit">fr</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token property" style="color:#36acaa">grid-template-rows</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> [row1] </span><span class="token number" style="color:#36acaa">50</span><span class="token unit">px</span><span class="token plain"> [row2] </span><span class="token number" style="color:#36acaa">100</span><span class="token unit">px</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token property" style="color:#36acaa">grid-template-areas</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        </span><span class="token string" style="color:#e3116c">'header header header'</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        </span><span class="token string" style="color:#e3116c">'sidebar main main'</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        </span><span class="token string" style="color:#e3116c">'footer footer footer'</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token punctuation" style="color:#393A34">}</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>]]></content:encoded>
+            <category>HTML</category>
+            <category>CSS</category>
+            <category>Layout</category>
+        </item>
+        <item>
+            <title><![CDATA[Git Bash vs. GitHub Desktop]]></title>
+            <link>https://github.com/blog/Git Bash vs. GitHub Desktop</link>
+            <guid>https://github.com/blog/Git Bash vs. GitHub Desktop</guid>
+            <pubDate>Wed, 24 Apr 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Diffrences between Git Bash and Git Desktop]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="diffrences-between-git-bash-and-git-desktop">Diffrences between <strong>Git Bash</strong> and <strong>Git Desktop</strong><a href="https://github.com/blog/Git%20Bash%20vs.%20GitHub%20Desktop#diffrences-between-git-bash-and-git-desktop" class="hash-link" aria-label="Direct link to diffrences-between-git-bash-and-git-desktop" title="Direct link to diffrences-between-git-bash-and-git-desktop">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="git-bash">Git Bash:<a href="https://github.com/blog/Git%20Bash%20vs.%20GitHub%20Desktop#git-bash" class="hash-link" aria-label="Direct link to Git Bash:" title="Direct link to Git Bash:">​</a></h3>
+<p>Git Bash is a command line interface (CLI) tool that provides a Unix-like command line experience on Windows systems.
+It allows users to interact with Git and other command-line utilities through a Unix-like shell environment.
+Git Bash provides a powerful set of tools for managing Git repositories, including commands for version control, branching, merging, and more.
+It's preferred by many developers who are comfortable with command-line interfaces and need more fine-grained control over Git operations.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="git-desktop">Git Desktop:<a href="https://github.com/blog/Git%20Bash%20vs.%20GitHub%20Desktop#git-desktop" class="hash-link" aria-label="Direct link to Git Desktop:" title="Direct link to Git Desktop:">​</a></h3>
+<p>Git Desktop, on the other hand, is a graphical user interface (GUI) tool for Git.
+It provides a more visually intuitive way to interact with Git repositories compared to the command line.
+Git Desktop simplifies common Git operations such as committing changes, pushing and pulling from remote repositories, managing branches, and resolving merge conflicts.
+It's often preferred by users who are new to Git or prefer a more visual approach to version control.</p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="comparison">Comparison:<a href="https://github.com/blog/Git%20Bash%20vs.%20GitHub%20Desktop#comparison" class="hash-link" aria-label="Direct link to Comparison:" title="Direct link to Comparison:">​</a></h3>
+<ul>
+<li>
+<p><strong>Ease of Use:</strong> Git Desktop is generally easier to use for beginners or those who prefer graphical interfaces. Git Bash requires familiarity with command-line interfaces.</p>
+</li>
+<li>
+<p><strong>Functionality:</strong> Both tools provide access to the core Git functionality. However, Git Bash may offer more advanced features and flexibility due to its command-line nature.</p>
+</li>
+<li>
+<p><strong>Customization:</strong> Git Bash is highly customizable and can be configured to work with various Unix-like tools and utilities. Git Desktop may offer some customization options, but not to the extent of Git Bash.</p>
+</li>
+<li>
+<p><strong>Platform Compatibility:</strong> Git Bash is primarily targeted at Windows users, providing a Unix-like environment on that platform. Git Desktop is available for Windows and macOS.</p>
+</li>
+<li>
+<p><strong>Preference:</strong> Ultimately, the choice between Git Bash and Git Desktop comes down to personal preference and workflow. Some developers prefer the simplicity and visual nature of Git Desktop, while others prefer the flexibility and power of Git Bash.</p>
+</li>
+</ul>]]></content:encoded>
+            <category>SSH</category>
+            <category>Git</category>
+            <category>GitHub</category>
+        </item>
+        <item>
+            <title><![CDATA[SSH keys and usage]]></title>
+            <link>https://github.com/blog/SSH keys and usage</link>
+            <guid>https://github.com/blog/SSH keys and usage</guid>
+            <pubDate>Wed, 24 Apr 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[An SSH key, or Secure Shell key, is a pair of cryptographic keys used for secure communication and authentication in the SSH protocol. The pair consists of a public key and a private key. SSH keys are widely used for secure remote access to servers, automated processes, and secure file transfers. They offer stronger security compared to password-based authentication, as the private key is never transmitted over the network, reducing the risk of interception or brute-force attacks.]]></description>
+            <content:encoded><![CDATA[<p>An <strong>SSH key</strong>, or <strong>Secure Shell key</strong>, is a pair of cryptographic keys used for secure communication and authentication in the SSH protocol. The pair consists of a public key and a private key. SSH keys are widely used for secure remote access to servers, automated processes, and secure file transfers. They offer stronger security compared to password-based authentication, as the private key is never transmitted over the network, reducing the risk of interception or brute-force attacks.</p>
+<ol>
+<li>
+<p><strong>Public Key</strong>: The public key is placed on the SSH server that you want to access securely. It is freely distributable and can be shared with anyone. The server uses the public key to encrypt data that can only be decrypted with the corresponding private key.</p>
+</li>
+<li>
+<p><strong>Private Key</strong>: The private key is kept securely on the client side, typically in a file or stored in an SSH agent. It should never be shared with anyone else. When the client attempts to connect to the SSH server, it presents the private key for authentication. The server then checks this private key against the corresponding public key stored on the server. If they match, the client is granted access.</p>
+</li>
+</ol>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="key-features-of-ssh-based-access-include">Key features of SSH-based access include:<a href="https://github.com/blog/SSH%20keys%20and%20usage#key-features-of-ssh-based-access-include" class="hash-link" aria-label="Direct link to Key features of SSH-based access include:" title="Direct link to Key features of SSH-based access include:">​</a></h2>
+<ol>
+<li>
+<p><strong>Encryption</strong>: SSH encrypts all data transmitted between the client and server, including login credentials, commands, and data transfers. This encryption ensures confidentiality and protects against eavesdropping.</p>
+</li>
+<li>
+<p><strong>Authentication</strong>: SSH uses cryptographic keys, typically in the form of SSH key pairs for user authentication. It enables users to securely log in to remote systems or servers from anywhere with network connectivity.</p>
+</li>
+<li>
+<p><strong>Remote Command Execution</strong>: SSH allows users to execute commands on remote systems as if they were physically present at the console. This capability is particularly useful for system administration, troubleshooting, and automation tasks.</p>
+</li>
+<li>
+<p><strong>Secure File Transfer</strong>: SSH supports secure file transfer protocols, such as Secure Copy (SCP) and Secure File Transfer Protocol (SFTP), allowing users to securely transfer files between local and remote systems or between different remote systems.</p>
+</li>
+</ol>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="how-to-get-your-ssh-key-for-your-git-repository-for-windows">How to get your SSH key for your Git repository? (For Windows)<a href="https://github.com/blog/SSH%20keys%20and%20usage#how-to-get-your-ssh-key-for-your-git-repository-for-windows" class="hash-link" aria-label="Direct link to How to get your SSH key for your Git repository? (For Windows)" title="Direct link to How to get your SSH key for your Git repository? (For Windows)">​</a></h2>
+<ol>
+<li>
+<p>Download and Open Git Bash</p>
+</li>
+<li>
+<p>Type:</p>
+</li>
+</ol>
+<blockquote>
+<p>ssh-keygen -t ed25519 -C „<a href="mailto:your_email@example.com" target="_blank" rel="noopener noreferrer">your_email@example.com</a>”</p>
+</blockquote>
+<p>Change the email from the example to the one connected to GitHub
+That will create a new SSH key with your e-mail as a label.</p>
+<ol start="3">
+<li>Now, you will be asked about location in which your ssh file will be saved:
+You can change it if you want. (If you created a key in the location of an existing one, it will be overwritten)</li>
+</ol>
+<blockquote>
+<p>Default: /c/Users/YOU/.ssh/id_ALGORITHM (e.g. ed25519)</p>
+</blockquote>
+<ol start="4">
+<li>Type your passphrase or skip it if you don’t need additional security.</li>
+</ol>
+<blockquote>
+<p>Enter passphrase (empty for no passphrase): [Type a passphrase]
+Enter same passphrase again: [Type passphrase again]</p>
+</blockquote>
+<p>(Every time you will use SSH key, you will be asked for the passphrase unless you have configured ssh-agent which manage your keys)</p>
+<ol start="5">
+<li>Copy your ssh key using pipeline command:</li>
+</ol>
+<blockquote>
+<p>cat ~/.ssh/id_ed25519.pub | clip</p>
+</blockquote>
+<p>(id_ed25519 is an id algorithm witch was used in subsection 3)</p>
+<blockquote>
+<p>Now in your clipboard you will find that key:
+(e.g. ssh-ed25519 [YOUR SSH KEY - string] [your email])</p>
+</blockquote>
+<ol start="6">
+<li>Open your web browser and visit: <a href="https://github.com/settings/keys" target="_blank" rel="noopener noreferrer">https://github.com/settings/keys</a></li>
+</ol>
+<p>(You can also login into your github account, click on your profile picture -&gt; settings -&gt; Access -&gt; SSH and GPG keys)</p>
+<ol start="7">
+<li>
+<p>Click buton „New SSH key”, then add name for your key, choose key type, and paste below your key. When you’re done click „Add SSH key”</p>
+</li>
+<li>
+<p>Now, you can clone your repository using your SSH key.</p>
+</li>
+</ol>
+<hr>
+<p> 
+For more information, please look at: <strong><a href="https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent" target="_blank" rel="noopener noreferrer">GitHub Documentation</a></strong>.</p>]]></content:encoded>
+            <category>SSH</category>
+            <category>Git</category>
+            <category>GitHub</category>
+        </item>
         <item>
             <title><![CDATA[Welcome]]></title>
             <link>https://github.com/blog/welcome</link>
